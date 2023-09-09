@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    max-width: 70%;
   }
   form {
     display: flex;
@@ -25,3 +26,7 @@ body {
     font-size: 24px;
     font-weight: bold;
   }
+
+@media only screen (max-width){
+    max-widht: 95%;
+}
